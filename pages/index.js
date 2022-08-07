@@ -1,8 +1,13 @@
+import Sidebar from "../components/Sidebar"
+
+
+
 function HomePage() {
     return (
-        <div>
-            <h1>hello world</h1>
-        </div>
+        <main className="flex min-h-screen max-w-7xl mx-auto">
+            <Sidebar />
+
+        </main>
     )
 }
   
